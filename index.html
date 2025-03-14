@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annual Report Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        ul{
+           list-style:none;
+        }
+        .container {
+            width: 210mm;
+            height: 297mm;
+            margin: auto;
+            background: rgb(255, 255, 255);
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .header img.logo {
+            width: 80px;
+            height: 80px;
+        }
+        .header .school-info {
+            text-align: center;
+            flex-grow: 1;
+        }
+        .header .school-info .school-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #222;
+        }
+        .header .school-info .contact {
+            font-size: 12px;
+            color: #555;
+        }
+        .header img.student-photo {
+            width: 80px;
+            height: 80px;
+            border-radius: 5px;
+        }
+        .report-card {
+            margin-top: 20px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 16px;
+            color: #222;
+        }
+        .student-details {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            align-items: center;
+        }
+        .table-container {
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+        th {
+            background-color: #e8e8ff;
+        }
+        .signature-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+
+        .table1{
+            margin-top: 15px;
+            width: 50%;
+        }
+        .table2{
+            margin-top: 15px;
+            width: 50%;
+        }
+        .table3{
+            margin-top: 15px;
+        }
+        .table4{
+            margin-top: 15px;
+        }
+        .table5{
+            margin-top: 15px;
+        }
+        .student-details-text{
+            display: flex;
+            justify-content: space-between;
+            font-size: small;
+            align-items: center;
+           color: rgb(26, 26, 108);
+        }
+        .signature {
+            text-align: center;
+            font-weight: bold;
+        }
+        .seal {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="logo.png" alt="School Logo" class="logo">
+            <div class="school-info">
+                <div class="school-name">SAINT SOLDIER ELITE CONVENT SCHOOL</div>
+                <div><strong>Jandiala Guru (Amritsar) Punjab</strong></div>
+                <div class="contact">+91-9872111347 | stsoldierschool@yahoo.com | www.ssecschool.com</div>
+            </div>
+            <img src="student.jpg" alt="Student Photo" class="student-photo">
+        </div>
+        
+        <div class="report-card">ANNUAL REPORT CARD SESSION 2024-25</div>
+        
+        <div class="student-details">
+            <p>Student Name</p>
+            <p>Batch</p> 
+            <p>Adm No.</p>
+            <p>Roll No.</p>
+            <p>Mother's Name</p>
+            <p>Father's Name</p>
+            <p>D.O.B.</p>
+           
+        </div>
+        <div class="student-details-text">
+            <p><strong>AAROHI</strong><br><strong>ROUSHAN</strong></p>
+            <p><strong>LKG(2024-25)</strong></p> 
+            <p><strong>13357</strong></p>
+            <p><strong>003</strong></p>
+            <p><strong>AAROHI ROUSHAN</strong></p>
+            <p><strong>AMIT KUMAR</strong></p>
+            <p><strong>17-02-2025</strong></p>
+           
+        </div>
+        
+        <div class="table-container">
+            <table>
+                <tr>
+                    <th rowspan="2">Subjects</th>
+                    <th colspan="5">TERM I</th>
+                    <th colspan="5">TERM II</th>
+                    <th rowspan="2">Total (200)</th>
+                    <th rowspan="2">Grade</th>
+                </tr>
+                <tr>
+                    <th>PP1 (10)</th>
+                    <th>NB1 (5)</th>
+                    <th>ASSE 1 (5)</th>
+                    <th>TERM 1 (80)</th>
+                    <th>Total (100)</th>
+                    <th>PP2 (10)</th>
+                    <th>NB2 (5)</th>
+                    <th>ASSE 2 (5)</th>
+                    <th>TERM 2 (80)</th>
+                    <th>Total (100)</th>
+                </tr>
+                <tr>
+                    <td>English Language</td>
+                    <td>5</td><td>5</td><td>5</td><td>5</td><td>20</td>
+                    <td>5</td><td>5</td><td>5</td><td>5</td><td>20</td>
+                    <td>40</td>
+                    <td>D</td>
+                </tr>
+                <tr>
+                    <td>English Language</td>
+                    <td>5</td><td>5</td><td>5</td><td>5</td><td>20</td>
+                    <td>5</td><td>5</td><td>5</td><td>5</td><td>20</td>
+                    <td>40</td>
+                    <td>D</td>
+                </tr>
+                <tr>
+                    <td>English Language</td>
+                    <td>5</td><td>5</td><td>5</td><td>5</td><td>20</td>
+                    <td>5</td><td>5</td><td>5</td><td>5</td><td>20</td>
+                    <td>40</td>
+                    <td>D</td>
+                </tr>
+                <tr>
+                    <td>English Language</td>
+                    <td>5</td><td>5</td><td>5</td><td>5</td><td>20</td>
+                    <td>5</td><td>5</td><td>5</td><td>5</td><td>20</td>
+                    <td>40</td>
+                    <td>D</td>
+                </tr>
+                <tr>
+                    <td>English Language</td>
+                    <td>5</td><td>5</td><td>5</td><td>5</td><td>20</td>
+                    <td>5</td><td>5</td><td>5</td><td>5</td><td>20</td>
+                    <td>40</td>
+                    <td>D</td>
+                </tr>
+                <tr>
+                    <td>English Language</td>
+                    <td>5</td><td>5</td><td>5</td><td>5</td><td>20</td>
+                    <td>5</td><td>5</td><td>5</td><td>5</td><td>20</td>
+                    <td>40</td>
+                    <td>D</td>
+                </tr>
+            </table>
+        </div>
+        
+          <table class="table1">
+        <tr>
+            <th colspan="2" class="bold">PERFORMANCE ANALYSIS</th>
+        </tr>
+    </table>
+    <table class="table2">
+        <tr>
+            <td class="bold blue">Attendance (Present/Working)</td>
+            <td class="bold">44/60</td>
+        </tr>
+    </table>
+    
+    <table class="table3">
+        <tr>
+            <th class="bold blue" colspan="3">DISCIPLINE</th>
+        </tr>
+        <tr>
+            <th>Discipline</th>
+            <th>TERM I</th>
+            <th>TERM II</th>
+        </tr>
+        <tr>
+            <td>Discipline</td>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+    </table>
+    
+    <table class="table4">
+        <tr>
+            <th class="bold blue" colspan="3">ACTIVITY</th>
+        </tr>
+        <tr>
+            <th>Activity</th>
+            <th>TERM I</th>
+            <th>TERM II</th>
+        </tr>
+        <tr>
+            <td>General Knowledge</td>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>Work Education (or Pre-vocational Education)</td>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>Art Education</td>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>Health & Physical Education</td>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+    </table>
+    
+    <table class="table5">
+        <tr>
+            <th class="bold blue">Remarks</th>
+            <td class="bold">good</td>
+        </tr>
+    </table>
+        
+        <div class="signature-section">
+            <div class="signature">Signature of Class Teacher</div>
+            <div class="seal">Institution Seal</div>
+            <div class="signature">Principal Signature</div>
+        </div>
+    </div>
+</body>
+</html>
